@@ -3,7 +3,7 @@
 A user-friendly and efficient web application designed to help you manage your daily expenses seamlessly. This project leverages modern web technologies for an interactive experience and enables users to track, visualize, and manage their financial data.
 
 
-###🚀 Features 
+### 🚀 Features 
 
 - User Authentication: Secure sign-up and login functionality.
 
@@ -44,7 +44,7 @@ firebase deploy
 
 ## 📸 Screenshots
 
-### Login Page
+### 1. Login Page
 
 ![image](https://github.com/user-attachments/assets/6a083c4a-8e8e-430f-bfdc-91610f7f5c6f)
 
@@ -52,7 +52,7 @@ firebase deploy
 
 - Password:- 123456
 
-### Expense Tracker Dashboard
+### 2. Expense Tracker Dashboard
 
 ![Screenshot 2025-01-17 202306](https://github.com/user-attachments/assets/5d8f6968-6d05-4e07-90bf-5b8d3dc6fb96)
 
@@ -63,7 +63,7 @@ firebase deploy
 ![Screenshot 2025-01-17 202507](https://github.com/user-attachments/assets/f24e15fb-5f73-44a4-9c16-f2b73cacda8c)
 
 
-### Add Expense
+### 3. Add Expense
 
 ## Added Expenses:-
 
