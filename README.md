@@ -3,28 +3,28 @@
 A user-friendly and efficient web application designed to help you manage your daily expenses seamlessly. This project leverages modern web technologies for an interactive experience and enables users to track, visualize, and manage their financial data.
 
 
-🚀 Features
+###🚀 Features 
 
-User Authentication: Secure sign-up and login functionality.
+- User Authentication: Secure sign-up and login functionality.
 
-Expense Management: Add, edit, and categorize expenses with ease.
+- Expense Management: Add, edit, and categorize expenses with ease.
 
-Data Visualization: Beautiful bar charts to analyze spending trends.
+- Data Visualization: Beautiful bar charts to analyze spending trends.
 
-Responsive Design: Fully optimized for both desktop and mobile users.
+- Responsive Design: Fully optimized for both desktop and mobile users.
 
-Contact Form: Seamlessly connect with us for support or queries.
+- Contact Form: Seamlessly connect with us for support or queries.
 
-🛠️ Built With
+### 🛠️ Built With 
 
-Frontend: HTML, CSS, JavaScript, Chart.js
+- Frontend: HTML, CSS, JavaScript, Chart.js
 
-Backend: Firebase Authentication and Firestore Database
+- Backend: Firebase Authentication and Firestore Database
 
-Hosting: Firebase Hosting
+- Hosting: Firebase Hosting
 
 
-⚙️ Installation
+### ⚙️ Installation 
 
 1. Clone the repository
 
@@ -42,16 +42,17 @@ firebase emulators:start
 
 firebase deploy
 
-📸 Screenshots
+## 📸 Screenshots
 
-Login Page
+### Login Page
 
 ![image](https://github.com/user-attachments/assets/6a083c4a-8e8e-430f-bfdc-91610f7f5c6f)
 
-Login Email ID:- user@gmail.com
-Password:- 123456
+- Login Email ID:- user@gmail.com
 
-Expense Tracker Dashboard
+- Password:- 123456
+
+### Expense Tracker Dashboard
 
 ![Screenshot 2025-01-17 202306](https://github.com/user-attachments/assets/5d8f6968-6d05-4e07-90bf-5b8d3dc6fb96)
 
@@ -62,18 +63,22 @@ Expense Tracker Dashboard
 ![Screenshot 2025-01-17 202507](https://github.com/user-attachments/assets/f24e15fb-5f73-44a4-9c16-f2b73cacda8c)
 
 
-Add Expense
+### Add Expense
 
-Added Expenses:-
+## Added Expenses:-
 
 ![Screenshot 2025-01-17 202320](https://github.com/user-attachments/assets/82d94f73-2a3f-4163-8f39-d11f1993acfe)
 
-Chart:- 
+## Chart:- 
 
 ![Screenshot 2025-01-17 202507](https://github.com/user-attachments/assets/27db61e0-1a6c-4c14-bc60-c37ea5251d8d)
 
+### Website-Link
 
-🤝 Contribution Guidelines
+*https://expense-tracker-project-936f3.web.app/*
+
+
+### 🤝 Contribution Guidelines
 
 We welcome contributions to enhance the project. Here's how you can help:
 
@@ -88,7 +93,7 @@ Commit your changes and push them.
 Submit a pull request for review.
 
 
-💡 Future Enhancements
+### 💡 Future Enhancements
 
 Dark Mode: Improve user experience with a dark theme.
 
@@ -97,14 +102,14 @@ Expense Sharing: Allow multiple users to share expenses.
 Advanced Analytics: Add more visual insights into spending habits.
 
 
-📝 Author
+### 📝 Author
 
 Kartik SinghLinkedIn | GitHub
 
-🌟 Acknowledgments
+### 🌟 Acknowledgments
 
 Special thanks to Firebase for their excellent services.
 
 Gratitude to all open-source contributors for their incredible libraries and frameworks.
 
-Give a ⭐ if you like this project and find it useful!
+*Give a ⭐ if you like this project and find it useful!*
