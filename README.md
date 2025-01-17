@@ -102,9 +102,10 @@ Expense Sharing: Allow multiple users to share expenses.
 Advanced Analytics: Add more visual insights into spending habits.
 
 
-### 📝 Author
+## 👨‍💻 Meet the Author
 
-Kartik SinghLinkedIn | GitHub
+This system is proudly developed and maintained by **Kartik Singh**. I am committed to enhancing the educational experience with innovative tech solutions. Your feedback and suggestions are invaluable, so don't hesitate to reach out!
+
 
 ### 🌟 Acknowledgments
 
