@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="login-form">
+      <div class="form-control">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+      </div>
+      <button type="submit" class="login-btn">Login</button>
+    </form>
+    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+  </div>
+
+  <script>
+    // Simulating stored user data (Replace with server-side storage for real-world use)
+    const users = [
+      { email: "user@gmail.com", password: "123456" },
+    ];
+
+    // Login Functionality
+    document.getElementById("login-form").addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+
+      // Check if user exists
+      const user = users.find(user => user.email === email && user.password === password);
+
+      if (user) {
+        alert("Login successful!");
+        window.location.href = "index.html"; // Redirect to the main page
+      } else {
+        alert("Invalid email or password.");
+      }
+    });
+  </script>
+</body>
+</html>

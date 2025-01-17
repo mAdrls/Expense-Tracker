@@ -1,0 +1,72 @@
+/* Import your main CSS file to maintain consistency */
+@import url('Fircss.css');
+
+/* Specific styles for the Edit Account page */
+.edit-account-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.edit-account-container h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #223e99;
+}
+
+#edit-account-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-group input:focus {
+    border-color: #6e8efb;
+    outline: none;
+}
+
+button[type="submit"] {
+    background: linear-gradient(135deg, #223e99, #212d54);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-top: 1rem;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(135deg, #a777e3, #6e8efb);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .edit-account-container {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+}
