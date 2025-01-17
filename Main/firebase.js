@@ -4,16 +4,15 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth
 import { getFirestore } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js";
 
 
-// Firebase configuration
+// Firebase configuration // Enter Your API Key Here
 const firebaseConfig = {
-    apiKey: "AIzaSyDFYtDAP81LljrBHDwwm_Ntpu5CQd8tpnM",
-    authDomain: "expense-tracker-project-936f3.firebaseapp.com",
-    projectId: "expense-tracker-project-936f3",
-    storageBucket: "expense-tracker-project-936f3.firebasestorage.app",
-    messagingSenderId: "759867990488",
-    appId: "1:759867990488:web:bd6315db64fd248b7492ad",
-    measurementId: "G-HXBP5LFH5C"
-  };
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID"
+};
   
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
