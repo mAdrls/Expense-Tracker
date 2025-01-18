@@ -75,7 +75,7 @@ firebase deploy
 
 ### Website-Link
 
-*https://expense-tracker-project-936f3.web.app/*
+*https://expense-tracker-1d0a5.web.app*
 
 
 ### 🤝 Contribution Guidelines
